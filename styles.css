@@ -1,0 +1,69 @@
+/* Configuración general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4a4e69;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f7f7f7 !important;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #4a4e69, #9a8c98);
+    color: white;
+    padding: 6rem 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2.5rem;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Sección de proyectos */
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a4e69;
+    margin-bottom: 1.5rem;
+}
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Footer */
+.footer {
+    background-color: #4a4e69;
+    color: white;
+}
+.footer h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer a {
+    color: #f7f7f7;
+    transition: color 0.3s ease;
+}
+.footer a:hover {
+    color: #d1c4e9;
+}
+.footer hr {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+.footer .fs-4 {
+    font-size: 1.5rem;
+}
